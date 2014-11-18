@@ -30,7 +30,7 @@
     "browserify":   "*",
     "uglify-js":    "*"
   },
-  "scripts": {
+  "config": {
      "blanket": {
       "pattern": "tinyliquid/lib"
     },

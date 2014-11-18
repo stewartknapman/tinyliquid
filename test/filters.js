@@ -121,6 +121,14 @@ describe('filters', function () {
     assert.equal(filters.date(now.getTime()), '1992-12-31 15:30:40');
     assert.equal(filters.date(now.getTime(), '%Y-%m-%j'), '1992-12-31');
     assert.equal(filters.date(now.getTime(), '%H:%M:%S'), '15:30:40');
+/*
+    assert.equal(filters.date(now.getTime(), '%a %A'), '15:30:40');
+    assert.equal(filters.date(now.getTime(), '%b %B'), '15:30:40');
+    assert.equal(filters.date(now.getTime(), '%c'), '15:30:40');
+    assert.equal(filters.date(now.getTime(), '%d %-d %e'), '15:30:40');
+    assert.equal(filters.date(now.getTime(), '%D'), '15:30:40');
+    assert.equal(filters.date(now.getTime(), '%F'), '15:30:40');
+*/
   });
 
   it('#downcase', function () {
